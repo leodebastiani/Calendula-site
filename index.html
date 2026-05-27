@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALÊNDULA — Rock do Sul</title>
+    <meta name="description" content="Calêndula — banda de rock autoral. Britpop, melancolia, amor e remorso.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+    <div class="loader-content">
+        <img src="img/logo-flor.png" alt="Calêndula" class="loader-logo">
+        <span class="loader-text">CALÊNDULA</span>
+        <div class="loader-bar"></div>
+    </div>
+</div>
+
+<!-- Grain Overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ====== NAV ====== -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="#home" class="nav-logo">
+            <img src="img/logo-flor.png" alt="Calêndula">
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#setlist">Setlist</a></li>
+            <li><a href="#shows">Shows</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#loja">Loja</a></li>
+            <li><a href="#contato" class="nav-cta">Contato</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- ====== HERO ====== -->
+<section id="home" class="hero">
+    <div class="hero-bg">
+        <img src="img/band-group.png" alt="Calêndula" class="hero-img" id="heroImg">
+        <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-noise"></div>
+    <div class="hero-content container">
+        <p class="hero-sub reveal">— Desde 2025</p>
+        <h1 class="hero-title reveal">CALÊNDULA<span class="dot">.</span></h1>
+        <p class="hero-tagline reveal">melancolia &nbsp;·&nbsp; amor &nbsp;·&nbsp; remorso</p>
+        <div class="hero-cta reveal">
+            <a href="#sobre" class="btn btn-primary">Conheça a banda</a>
+            <a href="#setlist" class="btn btn-ghost">Ver setlist</a>
+        </div>
+    </div>
+    <div class="hero-side-text">CALÊNDULA&nbsp;&nbsp;2025&nbsp;&nbsp;BRITPOP</div>
+    <div class="hero-scroll">
+        <span>SCROLL</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<!-- ====== MARQUEE ====== -->
+<div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee">
+        <span>CALÊNDULA</span><span class="sep">✦</span>
+        <span>BRITPOP</span><span class="sep">✦</span>
+        <span>AQUELA MULHER</span><span class="sep">✦</span>
+        <span>MARCAS NA PELE</span><span class="sep">✦</span>
+        <span>FUI EU</span><span class="sep">✦</span>
+        <span>MUSTANG</span><span class="sep">✦</span>
+        <span>UNDERGROUND</span><span class="sep">✦</span>
+        <span>@CALENDULASOUND</span><span class="sep">✦</span>
+        <span>ROCK DO SUL</span><span class="sep">✦</span>
+        <!-- duplicate for loop -->
+        <span>CALÊNDULA</span><span class="sep">✦</span>
+        <span>BRITPOP</span><span class="sep">✦</span>
+        <span>AQUELA MULHER</span><span class="sep">✦</span>
+        <span>MARCAS NA PELE</span><span class="sep">✦</span>
+        <span>FUI EU</span><span class="sep">✦</span>
+        <span>MUSTANG</span><span class="sep">✦</span>
+        <span>UNDERGROUND</span><span class="sep">✦</span>
+        <span>@CALENDULASOUND</span><span class="sep">✦</span>
+        <span>ROCK DO SUL</span><span class="sep">✦</span>
+    </div>
+</div>
+
+<!-- ====== SOBRE ====== -->
+<section id="sobre" class="sobre">
+    <div class="sobre-bg-text" aria-hidden="true">CALENDULA</div>
+    <div class="container">
+        <div class="sobre-grid">
+            <div class="sobre-text">
+                <span class="section-label reveal">001 — Sobre a banda</span>
+                <h2 class="section-title reveal">De onde vem a<br><em>Calêndula?</em></h2>
+                <p class="body-text reveal">
+                    Calêndula nasceu em 2025, de forma despretenciosa através do Vampr. Desde o início, a ideia foi simples: ser autoral, cru e vivo.
+                </p>
+                <p class="body-text reveal">
+                    As letras transitam entre melancolia, amor e remorso — sentimentos que todo mundo conhece mas raramente sabe nomear. Rock que dói do jeito certo.
+                </p>
+                <p class="body-text reveal">
+                    A formação carrega influências fortes do Britpop (<em>Oasis</em>), do grunge (<em>Nirvana, Stone Temple Pilots</em>), do rock dos anos 60 e do indie alternativo como <em>The Strokes</em>.
+                </p>
+                <div class="members reveal">
+                    <div class="member">
+                        <span class="member-name">PH</span>
+                        <span class="member-role">Voz &amp; Guitarra</span>
+                    </div>
+                    <div class="member">
+                        <span class="member-name">Vitor.S</span>
+                        <span class="member-role">Bateria</span>
+                    </div>
+                    <div class="member">
+                        <span class="member-name">Léo</span>
+                        <span class="member-role">Baixo</span>
+                    </div>
+                    <div class="member">
+                        <span class="member-name">Igor</span>
+                        <span class="member-role">Teclado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre-images reveal">
+                <div class="img-stack">
+                    <img src="img/identity.png" alt="Identidade" class="img-back">
+                    <img src="img/about-origin.png" alt="Origem" class="img-front">
+                    <div class="img-badge">
+                        <img src="img/logo-flor.png" alt="Logo Calêndula">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ====== SETLIST ====== -->
+<section id="setlist" class="setlist">
+    <div class="container">
+        <span class="section-label reveal">002 — As músicas</span>
+        <h2 class="section-title reveal">Setlist</h2>
+    </div>
+    <div class="tracks-list">
+        <div class="track reveal">
+            <div class="track-num">01</div>
+            <div class="track-info">
+                <h3 class="track-name">Aquela Mulher</h3>
+                <span class="track-tag">Autoral</span>
+            </div>
+            <div class="track-line"></div>
+            <div class="track-play" aria-label="Play">&#9654;</div>
+        </div>
+        <div class="track reveal">
+            <div class="track-num">02</div>
+            <div class="track-info">
+                <h3 class="track-name">Marcas na Pele</h3>
+                <span class="track-tag">Autoral</span>
+            </div>
+            <div class="track-line"></div>
+            <div class="track-play" aria-label="Play">&#9654;</div>
+        </div>
+        <div class="track reveal">
+            <div class="track-num">03</div>
+            <div class="track-info">
+                <h3 class="track-name">Fui Eu</h3>
+                <span class="track-tag">Autoral</span>
+            </div>
+            <div class="track-line"></div>
+            <div class="track-play" aria-label="Play">&#9654;</div>
+        </div>
+        <div class="track reveal">
+            <div class="track-num">04</div>
+            <div class="track-info">
+                <h3 class="track-name">Mustang</h3>
+                <span class="track-tag">Autoral</span>
+            </div>
+            <div class="track-line"></div>
+            <div class="track-play" aria-label="Play">&#9654;</div>
+        </div>
+        <div class="track reveal">
+            <div class="track-num">05</div>
+            <div class="track-info">
+                <h3 class="track-name">Underground</h3>
+                <span class="track-tag">Autoral</span>
+            </div>
+            <div class="track-line"></div>
+            <div class="track-play" aria-label="Play">&#9654;</div>
+        </div>
+    </div>
+    <div class="setlist-foot reveal">
+        <img src="img/hero-band.png" alt="Calêndula ao vivo" class="setlist-foot-img">
+        <div class="setlist-foot-overlay"></div>
+        <div class="setlist-foot-text">
+            <span>5 músicas autorais &amp; covers nacionais</span>
+        </div>
+    </div>
+</section>
+
+<!-- ====== SHOWS ====== -->
+<section id="shows" class="shows">
+    <div class="container">
+        <span class="section-label reveal">003 — Onde tocamos</span>
+        <h2 class="section-title reveal">Palcos que<br>já pisamos</h2>
+        <div class="venues-grid">
+
+            <div class="venue-card reveal">
+                <div class="venue-logo">
+                    <img src="img/logo-divina-comedia.png" alt="Divina Comédia">
+                </div>
+                <div class="venue-info">
+                    <h3>Divina Comédia</h3>
+                    <p>Um dos bares mais icônicos da cena underground. Palco que viu a Calêndula crescer diante de uma galera que entende de rock.</p>
+                </div>
+            </div>
+
+            <div class="venue-card featured reveal">
+                <div class="venue-label">Estreia oficial</div>
+                <div class="venue-logo">
+                    <img src="img/logo-trilha-hub.png" alt="Trilha Hub Cultural">
+                </div>
+                <div class="venue-info">
+                    <h3>Trilha Hub Cultural</h3>
+                    <p>Foi aqui que tudo começou — mês do rock, setlist cheio de autorais e covers nacionais. A estreia que definiu quem a Calêndula é ao vivo.</p>
+                </div>
+            </div>
+
+            <div class="venue-card reveal">
+                <div class="venue-logo">
+                    <img src="img/logo-rock-praca.png" alt="Rock da Praça">
+                </div>
+                <div class="venue-info">
+                    <h3>Rock da Praça</h3>
+                    <p>Rock ao vivo pra galera da cidade. Energia na praça, sol na cara, guitarra distorcida. A Calêndula na rua, pra quem quer sentir junto.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="upcoming reveal">
+            <div class="upcoming-img">
+                <img src="img/upcoming.png" alt="Próximos shows">
+            </div>
+            <div class="upcoming-text">
+                <span class="section-label">Próximos passos</span>
+                <h3>E na próxima<span class="dot">...</span></h3>
+                <p>A Calêndula tem duas datas confirmadas chegando aí. Marca na agenda e vem sentir isso com a gente ao vivo.</p>
+                <div class="show-dates">
+                    <div class="show-date show-date--poster">
+                        <img src="img/show-angryfest.png" alt="Angryfest — 07 de Junho" class="show-poster">
+                        <div class="show-poster-info">
+                            <span class="show-poster-name">ANGRYFEST</span>
+                            <span class="show-poster-date">07 de Junho</span>
+                            <span class="show-poster-local">Afronte Cultural · João Leão</span>
+                            <span class="show-poster-free">Entrada Gratuita</span>
+                            <div class="show-poster-lineup">
+                                <span>Angry Daze</span>
+                                <span>Cansei do Sol</span>
+                                <span class="show-poster-highlight">Calêndula</span>
+                                <span>Pombos Baleados</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-date">
+                        <span class="show-day">14</span>
+                        <div class="show-info">
+                            <span class="show-month">Junho 2025</span>
+                            <span class="show-desc">Show ao vivo</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://instagram.com/calendulasound" target="_blank" rel="noopener" class="btn btn-primary">
+                    Detalhes no Instagram
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ====== GALERIA ====== -->
+<section id="galeria" class="galeria">
+    <div class="container">
+        <span class="section-label reveal">004 — Galeria</span>
+        <h2 class="section-title reveal">Nos bastidores</h2>
+    </div>
+    <div class="gallery-grid">
+        <div class="gallery-item g-tall reveal">
+            <img src="img/hero-band.png" alt="Calêndula ao vivo">
+            <div class="gallery-overlay"><span>Ao Vivo</span></div>
+        </div>
+        <div class="gallery-item reveal">
+            <img src="img/studio.png" alt="Estúdio">
+            <div class="gallery-overlay"><span>Estúdio</span></div>
+        </div>
+        <div class="gallery-item reveal">
+            <img src="img/member-ph.png" alt="PH">
+            <div class="gallery-overlay"><span>PH</span></div>
+        </div>
+        <div class="gallery-item g-wide reveal">
+            <img src="img/band-group.png" alt="A banda">
+            <div class="gallery-overlay"><span>Calêndula</span></div>
+        </div>
+    </div>
+</section>
+
+<!-- ====== LOJA ====== -->
+<section id="loja" class="loja">
+    <div class="container">
+        <span class="section-label reveal">006 — Merch</span>
+        <h2 class="section-title reveal">Vista a Calêndula<br><em>em breve...</em></h2>
+        <p class="body-text reveal">A merch da Calêndula tá chegando. Por enquanto, guarda os 60 reais.</p>
+    </div>
+    <div class="loja-grid">
+
+        <div class="produto reveal">
+            <div class="produto-img produto-img--real">
+                <img src="img/camiseta.png" alt="Camiseta Calêndula Amarela" style="object-position: left center;">
+                <div class="produto-overlay"><span>Em Breve</span></div>
+            </div>
+            <div class="produto-info">
+                <span class="produto-nome">Camiseta Calêndula</span>
+                <span class="produto-tag">Amarela — Abelha &amp; Flor</span>
+                <span class="produto-preco">R$ 60</span>
+            </div>
+        </div>
+
+        <div class="produto reveal">
+            <div class="produto-img produto-img--real">
+                <img src="img/camiseta2.png" alt="Camiseta Calêndula Branca" style="object-position: left center;">
+                <div class="produto-overlay"><span>Em Breve</span></div>
+            </div>
+            <div class="produto-info">
+                <span class="produto-nome">Camiseta Calêndula</span>
+                <span class="produto-tag">Branca — Camaleão</span>
+                <span class="produto-preco">R$ 60</span>
+            </div>
+        </div>
+
+        <div class="produto reveal">
+            <div class="produto-img produto-img--real">
+                <img src="img/camiseta2.png" alt="Camiseta Calêndula Preta" style="object-position: right center;">
+                <div class="produto-overlay"><span>Em Breve</span></div>
+            </div>
+            <div class="produto-info">
+                <span class="produto-nome">Camiseta Calêndula</span>
+                <span class="produto-tag">Preta — Camaleão</span>
+                <span class="produto-preco">R$ 60</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="loja-aviso reveal">
+        <img src="img/logo-flor.png" alt="">
+        <p>As camisetas chegam em breve. Segue no Instagram pra não perder.</p>
+        <a href="https://instagram.com/calendulasound" target="_blank" rel="noopener" class="btn btn-ghost">@calendulasound</a>
+    </div>
+</section>
+
+<!-- ====== CONTATO ====== -->
+<section id="contato" class="contato">
+    <div class="container">
+        <div class="contato-inner">
+            <div class="contato-left">
+                <span class="section-label reveal">005 — Contato</span>
+                <h2 class="section-title reveal">Vamos fazer<br>barulho<br><em>juntos?</em></h2>
+                <p class="body-text reveal">Shows, parcerias, booking — manda um alô.</p>
+                <div class="socials reveal">
+                    <a href="https://instagram.com/calendulasound" target="_blank" rel="noopener" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        @calendulasound
+                    </a>
+                </div>
+                <div class="contato-deco reveal">
+                    <img src="img/logo-flor.png" alt="">
+                </div>
+            </div>
+            <div class="contato-right reveal">
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" placeholder="Oi Calêndula, quero..." rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                        Enviar mensagem
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <img src="img/logo-flor.png" alt="Calêndula">
+                <span>CALÊNDULA</span>
+            </div>
+            <p class="footer-copy">© 2025 Calêndula. Feito com distorção e sentimento.</p>
+            <div class="footer-social">
+                <a href="https://instagram.com/calendulasound" target="_blank" rel="noopener">Instagram</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
